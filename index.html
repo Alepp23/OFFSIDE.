@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="#ffffff" name="theme-color"/>
+  <title>
+   OFFSIDE.
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+  <script defer="" src="script.js">
+  </script>
+ </head>
+ <body>
+  <main class="app" id="app">
+   <section aria-label="Homepage" class="screen home" id="home">
+    <h1 class="home-title">
+     OFFSIDE.
+    </h1>
+    <p class="home-intro">
+     Explore the evolution of FIFA World Cup footballs, from iconic designs to groundbreaking innovations. Discover how the ball itself has changed the game.
+    </p>
+    <button class="menu-trigger" data-menu="" type="button">
+     Menu
+    </button>
+    <button class="explore" id="explore" type="button">
+     Explore
+     <span aria-hidden="true" class="explore-arrow">
+     </span>
+    </button>
+   </section>
+   <section aria-hidden="true" aria-label="World Cup ball carousel" class="screen archive" id="archive">
+    <button aria-label="Go to OFFSIDE homepage" class="archive-brand" id="brandBtn" type="button">
+     OFFSIDE.
+    </button>
+    <button class="menu-trigger" data-menu="" type="button">
+     Menu
+    </button>
+    <div class="archive-story" id="story">
+     <button class="archive-test" id="testBall" type="button">
+      TEST THE BALL &nearrow;
+     </button>
+     <div class="archive-year" id="year">
+      2010
+     </div>
+     <h2 class="archive-name" id="ballName">
+      Jabulani
+     </h2>
+     <p class="archive-copy" id="paragraph">
+      <span id="copyIntro">
+      </span>
+      <span id="copyExtra">
+      </span>
+      <button aria-expanded="false" class="more" id="more" type="button">
+       see more.
+      </button>
+     </p>
+    </div>
+    <div aria-label="Drag, scroll, or use arrow keys to browse balls" class="ball-rail" id="rail">
+     <button aria-label="View Jabulani, 2010" class="ball-slot" data-index="0" type="button">
+      <img alt="2010 Jabulani World Cup football" draggable="false" src="images/jabulani.png"/>
+     </button>
+     <button aria-label="View Brazuca, 2014" class="ball-slot" data-index="1" type="button">
+      <img alt="2014 Brazuca World Cup football" draggable="false" src="images/brazuca.png"/>
+     </button>
+     <button aria-label="View Telstar 18, 2018" class="ball-slot" data-index="2" type="button">
+      <img alt="2018 Telstar 18 World Cup football" draggable="false" src="images/telstar18.png"/>
+     </button>
+    </div>
+   </section>
+   <section aria-hidden="true" aria-label="World Cup winning goal arcade" class="game-screen" id="gameScreen">
+    <header class="game-top">
+     <button class="game-back" id="gameBack" type="button">
+      &larr; OFFSIDE.
+     </button>
+     <span class="game-top-center" id="gameTopLabel">
+      2010 / JABULANI
+     </span>
+     <button class="game-help" id="gameHelp" type="button">
+      HOW TO PLAY &nearrow;
+     </button>
+    </header>
+    <div class="game-panel game-tutorial" id="gameTutorial">
+     <div class="game-label">
+      TUTORIAL
+     </div>
+     <h2 class="game-heading" id="tutorialHeading">
+      KICK THE BALL
+     </h2>
+     <p class="game-blurb" id="tutorialCopy">
+      Press and hold to charge the shot. Release to kick.
+     </p>
+     <div aria-hidden="true" class="tutorial-graphic" id="tutorialKickGraphic">
+      <svg aria-label="Hold then release to kick" role="img" viewbox="0 0 600 350">
+       <text fill="#fff" font-size="22" x="170" y="95">
+        100%
+       </text>
+       <text fill="#fff" font-size="22" x="170" y="275">
+        0%
+       </text>
+       <path d="M215 85V275" opacity=".45" stroke="#00de48" stroke-width="4">
+       </path>
+       <path d="M209 90h12 M209 275h12" stroke="#00de48" stroke-width="4">
+       </path>
+       <g class="draw-ball">
+        <circle cx="300" cy="113" fill="#fff" r="64" stroke="#fff" stroke-width="3">
+        </circle>
+        <circle cx="300" cy="113" fill="#fff" r="58" stroke="#0a0a0a" stroke-width="4">
+        </circle>
+        <path d="M280 103l20-13 22 13-8 24h-29z" fill="#050505">
+        </path>
+        <path d="M280 103l-22-23m64 23 21-23m-29 47 14 26m-43-26-13 28m28-65-7-32" fill="none" stroke="#050505" stroke-width="5">
+        </path>
+       </g>
+       <g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
+        <path d="M296 291v-83c0-13 21-13 21 0v47c3-18 21-14 21-1v6c2-16 20-14 20 2 4-15 20-10 20 5v44c0 25-18 31-40 31h-13c-21 0-35-22-50-41-14-17 1-29 13-19z">
+        </path>
+       </g>
+      </svg>
+     </div>
+     <div aria-hidden="true" class="tutorial-graphic" hidden="" id="tutorialCurveGraphic">
+      <svg aria-label="Swipe to curve the shot" role="img" viewbox="0 0 600 350">
+       <path d="M253 78 C435 82 465 229 345 262" fill="none" stroke="#fff" stroke-opacity=".23" stroke-width="50">
+       </path>
+       <path d="M253 78 C435 82 465 229 345 262" fill="none" stroke="#fff" stroke-dasharray="9 9" stroke-width="2">
+       </path>
+       <g class="curve-ball">
+        <circle cx="300" cy="110" fill="#fff" r="60" stroke="#fff" stroke-width="2">
+        </circle>
+        <circle cx="300" cy="110" fill="#fff" r="55" stroke="#0a0a0a" stroke-width="4">
+        </circle>
+        <path d="M282 101l20-13 23 12-9 24h-29z" fill="#050505">
+        </path>
+        <path d="M282 101l-20-21m63 20 21-21m-30 45 13 27m-42-27-14 28" fill="none" stroke="#050505" stroke-width="5">
+        </path>
+       </g>
+       <g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
+        <path d="M289 280v-58c0-12 19-12 19 0v30c4-14 19-12 19 0 5-12 18-8 18 5 5-11 18-6 18 7v45c0 18-17 25-33 25h-16c-21-2-38-27-47-42-9-15 4-25 14-17z">
+        </path>
+       </g>
+       <path d="M225 318c90 0 138-5 218-65m0 0-31 5m31-5-7 29" fill="none" stroke="#00de48" stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
+       </path>
+      </svg>
+     </div>
+     <div class="tutorial-footer">
+      <button aria-label="Previous tutorial" class="tutorial-arrow" disabled="" id="tutorialPrev" type="button">
+       ❮
+      </button>
+      <span class="tutorial-dots" id="tutorialDots">
+       ● &cir;
+      </span>
+      <button aria-label="Next tutorial" class="tutorial-arrow" id="tutorialNext" type="button">
+       ❯
+      </button>
+     </div>
+     <button class="tutorial-start" hidden="" id="tutorialStart" type="button">
+      START THE CHALLENGE &rarr;
+     </button>
+    </div>
+    <div class="game-panel game-play" hidden="" id="gamePlay">
+     <div class="game-stage-text">
+      <p class="game-stage-eyebrow" id="gameChallengeYear">
+       2010 &middot; WORLD CUP FINAL
+      </p>
+      <h2 class="game-stage-title" id="gameChallengeName">
+       RECREATE INIESTA'S WINNER.
+      </h2>
+      <p class="game-stage-hint" id="gameChallengeHint">
+       HOLD TO KICK &middot; SWIPE RIGHT TO CURVE
+      </p>
+     </div>
+     <div aria-label="Football goal and moving ball; swipe left or right to curve while airborne" class="game-field" id="gameField">
+      <svg aria-hidden="true" class="field-lines" preserveaspectratio="none" viewbox="0 0 800 480">
+       <path d="M50 450L160 220H640L750 450M198 220L224 160H576L602 220M50 450H750M400 220V450" fill="none" opacity=".15" stroke="#baf6bd" stroke-width="2">
+       </path>
+       <ellipse cx="400" cy="450" fill="none" opacity=".13" rx="150" ry="70" stroke="#baf6bd" stroke-width="2">
+       </ellipse>
+      </svg>
+      <div class="goal-frame" id="goalFrame">
+      </div>
+      <div class="goal-marker" id="goalMarker">
+      </div>
+      <div class="goal-keeper" id="keeper">
+      </div>
+      <div class="game-orb" id="gameOrb">
+       <img alt="Selected World Cup football" id="gameOrbImage" src="images/jabulani.png"/>
+      </div>
+      <div class="field-score" id="fieldScore">
+       ESP 0 : 0 NED &middot; 116'
+      </div>
+     </div>
+     <div class="game-control-area">
+      <div class="game-power">
+       <div class="power-header">
+        <span>
+         POWER
+        </span>
+        <span id="powerValue">
+         0%
+        </span>
+       </div>
+       <div class="power-track">
+        <div class="power-fill" id="powerFill">
+        </div>
+       </div>
+      </div>
+      <button class="kick-button" id="kickButton" type="button">
+       HOLD TO KICK
+      </button>
+     </div>
+     <p class="game-instruction">
+      HOLD &amp; RELEASE TO SHOOT &middot; SWIPE ON FIELD / USE &larr; &rarr; TO CURVE IN FLIGHT
+     </p>
+     <div aria-live="polite" class="game-status" id="gameStatus">
+      Aim for the highlighted corner.
+     </div>
+    </div>
+    <div class="game-panel game-result" hidden="" id="gameResult">
+     <div class="result-eyebrow" id="resultEyebrow">
+      GOAL / RECREATED
+     </div>
+     <h2 class="result-headline" id="resultHeadline">
+      CONGRATULATIONS.
+     </h2>
+     <p class="result-description" id="resultDescription">
+     </p>
+     <div class="result-score" id="resultScore">
+      SPAIN 1 &mdash; 0 NETHERLANDS
+     </div>
+     <p class="result-disclaimer">
+      A simplified arcade tribute inspired by the real World Cup final &mdash; not a frame-by-frame recreation.
+     </p>
+     <div class="result-actions">
+      <button class="primary" id="resultAgain" type="button">
+       PLAY AGAIN
+      </button>
+      <button id="resultNext" type="button">
+       NEXT BALL &rarr;
+      </button>
+      <button id="resultBack" type="button">
+       BACK TO ARCHIVE
+      </button>
+     </div>
+    </div>
+   </section>
+   <div aria-hidden="true" aria-label="Menu" aria-modal="true" class="menu-overlay" id="menu" role="dialog">
+    <div class="menu-header">
+     <strong>
+      OFFSIDE.
+     </strong>
+     <button aria-label="Close menu" class="menu-close" id="closeMenu" type="button">
+      Close &times;
+     </button>
+    </div>
+    <nav class="menu-links">
+     <button data-nav="home" type="button">
+      HOME
+     </button>
+     <button data-nav="archive" type="button">
+      INDEX
+     </button>
+     <button data-nav="about" type="button">
+      ABOUT
+     </button>
+    </nav>
+    <div class="about-copy" id="aboutCopy">
+     An interactive exploration of FIFA World Cup ball design, from Jabulani to Telstar 18. Use scrolling or dragging to browse the carousel, then select &ldquo;see more&rdquo; to discover the story behind each design.
+    </div>
+   </div>
+  </main>
+ </body>
+</html>
