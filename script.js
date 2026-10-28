@@ -2,7 +2,7 @@ const footballs = [
   {
     year: "2010",
     name: "Jabulani",
-    image: "images/jabulani.png",
+    image: "jabulani.png",
     intro: "Features 11 different colours representing the 11 players on a team, the 11 official languages of South Africa, and its diverse communities.",
     extra: " Jabulani means 'to celebrate' in isiZulu. Its eight thermally bonded panels and textured surface were a change from traditional stitched footballs, although players also debated its unpredictable flight.",
     player: "Andrés Iniesta",
@@ -17,7 +17,7 @@ const footballs = [
   {
     year: "2014",
     name: "Brazuca",
-    image: "images/brazuca.png",
+    image: "brazuca.png",
     intro: "A developmental successor to the Adidas Tango 12 series of balls, with the same bladder and carcass but a different surface structure.",
     extra: " Brazuca uses six identical thermally bonded panels and a colourful ribbon-like graphic inspired by Brazil. The ball underwent extensive testing to improve the consistency of its flight and touch.",
     player: "Mario Götze",
@@ -32,7 +32,7 @@ const footballs = [
   {
     year: "2018",
     name: "Telstar 18",
-    image: "images/telstar18.png",
+    image: "telstar18.png",
     intro: "The Telstar 18 pays homage to Adidas's first World Cup match ball, the Telstar, which was named after the Telstar communications satellite.",
     extra: " Its pixelated black-and-white graphics reinterpret the original 1970 design. Telstar 18 used six thermally bonded panels and featured an embedded NFC chip.",
     player: "Paul Pogba",
